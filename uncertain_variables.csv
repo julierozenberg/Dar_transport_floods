@@ -1,0 +1,11 @@
+variable description,name,min,current hypothesis,max
+initial inflitration (mm),ini_infiltration,0.5,1,2
+drainage (mm/h),drainage,1,2,4
+runoff (%),runoff,20,50,70
+threshold for transport disruption (cm),threshold,20,40,50
+elasticity of transport demand to cost,elas_demand,-2,-1,-0.5
+elasticity for mode switch,elas_switch,-2,-1,-0.5
+transport unit cost multiplier (applied to all costs as estimated now),cost_multiplier,0.5,1,1.5
+traffic growth factor,traffic_growth,2,3,5
+duration of incidents multiplier,duration_multiplier,0.5,1,2
+incidents per year,frequency,based on the GCM results,,
